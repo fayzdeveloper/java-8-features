@@ -10,5 +10,9 @@ Java 8 Streams introduce a powerful and expressive way to handle data in your co
 
 - **Efficiency:** Experience a paradigm shift in data processing tasks, achieving better performance compared to traditional loop-based operations.
 
+## Topics covered
+
+-**Stream Creation** : Streams can be created from different element sources e.g. collections or arrays with the help of stream() and of() methods.
+
 ## Click on each folder to read content specific to that topic
 
