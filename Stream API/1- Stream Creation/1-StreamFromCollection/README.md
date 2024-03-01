@@ -6,5 +6,6 @@
     2- Each stream is printed individually using `forEach` method
 
 2- `Create a stream from Set`
+
     1- We create a stream from a set of strings (countries).
     2- Each stream is printed individually using `forEach` method
