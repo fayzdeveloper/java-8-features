@@ -1,3 +1,5 @@
+import java.util.stream.Stream;
+
 public class StreamOf {
     public static void main(String[] args) {
         // Generate a stream directly using Stream.of()
@@ -42,5 +44,35 @@ public class StreamOf {
 
         System.out.println("\nCreate an Empty Stream using Stream.of():");
         System.out.println("Is the stream empty? " + emptyStream.count());
+
+
+
+        /*********     Output    **********
+          
+        Generate a Stream using Stream.of():
+        apple
+        banana
+        orange
+        grape
+        kiwi
+
+        Create a Stream with Multiple Data Types:
+        apple
+        42
+        3.14
+        true
+
+        Create a Stream from an Array using Stream.of():
+        1
+        2
+        3
+        4
+        5
+
+        Create an Empty Stream using Stream.of():
+        Is the stream empty? 0
+
+        
+        ********* ********* ********* *********  */
     }
 }

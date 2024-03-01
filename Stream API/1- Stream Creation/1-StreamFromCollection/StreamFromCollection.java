@@ -29,5 +29,24 @@ public class StreamFromCollection {
         // Print each element in the stream
         System.out.println("Stream from Set:");
         countriesStream.forEach(System.out::println);
+
+
+        /***  Output  *****
+         
+            Stream from List:
+            apple
+            banana
+            orange
+            grape
+            kiwi
+            
+            Stream from Set:
+            Canada
+            USA
+            UK
+            Australia
+            Germany
+
+         *********************/
     }
 }

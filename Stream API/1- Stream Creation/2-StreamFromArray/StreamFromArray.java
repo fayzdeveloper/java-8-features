@@ -27,5 +27,18 @@ public class StreamFromArray {
         // Print each element in the stream of strings
         System.out.println("\nCreating a Stream of Strings:");
         wordsStream.forEach(word -> System.out.print(word + " "));
+
+
+        /*******  Output  ***********
+         
+        Method 1 - Stream from Array:
+        1 2 3 4 5 
+
+        Method 2 - Stream from Array using Arrays.stream():
+        1 2 3 4 5 
+        Creating a Stream of Strings:
+        apple banana orange grape kiwi 
+
+        ******************************/
     }
 }
