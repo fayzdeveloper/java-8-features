@@ -9,3 +9,11 @@
 
     1- We create a stream from a set of strings (countries).
     2- Each stream is printed individually using `forEach` method
+
+## How to Run
+
+Compile and run the `StreamFromCollection.java` file using the following commands:
+
+```bash
+javac StreamFromCollection.java
+java StreamFromCollection

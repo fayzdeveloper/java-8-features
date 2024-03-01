@@ -17,3 +17,11 @@
     1- We create an array of String.
     2- Convert the String array to stream using Stream.of().
     3- Each stream is printed individually using `forEach` method
+
+## How to Run
+
+Compile and run the `StreamFromArray.java` file using the following commands:
+
+```bash
+javac StreamFromArray.java
+java StreamFromArray
