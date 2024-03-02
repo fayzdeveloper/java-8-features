@@ -31,7 +31,16 @@ Creating streams in Java 8 involves several methods. Here are different ways to 
     Stream<Integer> infiniteStream = Stream.iterate(0, n -> n + 2);
 
     ```
-5- `Generate a Stream using Stream.generate()`:
+
+5- `Create a Stream from Map using entrySet().stream()`:
+    You can use map.entrySet().stream() to create a stream from Map.
+
+    ```
+    Stream<Map.Entry<String, Integer>> entryStream = map.entrySet().stream();
+
+    ```
+
+6- `Generate a Stream using Stream.generate()`:
     You can use Stream.generate() to generate an infinite stream based on a supplier.
 
     ```
