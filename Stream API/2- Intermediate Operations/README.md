@@ -30,8 +30,6 @@ Returns a new stream consisting of elements that match the given predicate.
 
 `Syntax` : stream.filter(predicate)
 
-stream.filter(predicate)
-
 ### Map
 Transforms each element of the stream using the provided function.
 
