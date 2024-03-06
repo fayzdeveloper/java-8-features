@@ -85,6 +85,8 @@ public class StreamCreationPracticeAllScenarios {
         Stream<String> wordIterate = Stream.iterate("A", character -> character + "B");
         System.out.println("<- String Iterate and add 'B' to seed ('A') from A to ABBBB Stream ->");
         wordIterate.limit(5).forEach(System.out::println);
+
+        //
     }
 
 

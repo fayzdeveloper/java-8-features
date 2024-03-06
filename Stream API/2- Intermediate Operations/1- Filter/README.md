@@ -90,3 +90,35 @@ In this example, the filter method is used to include only those Person objects 
 
 ## When to Use
 # Use the filter method when you need to selectively include or exclude elements from a stream based on a specified condition.
+
+
+## Some Coding challenges for you:
+Challenge 1: Filter Strings by Length
+Write a method that takes a list of strings and returns a new list containing only strings with a length greater than a specified value.
+
+Challenge 2: Filter Odd Numbers
+Write a method that takes a list of integers and returns a new list containing only the odd numbers.
+
+Challenge 3: Filter Employees by Department
+Create a class Employee with attributes name, age, and department. Write a method that takes a list of employees and filters out only those who belong to a specific department.
+
+Challenge 4: Filter Palindromes
+Write a method that takes a list of strings and filters out only the palindromes (words that read the same backward as forward).
+
+Challenge 5: Filter Prime Numbers
+Write a method that takes a list of integers and filters out only the prime numbers.
+
+Challenge 6: Filter Students by Grade
+Create a class Student with attributes name, grade, and age. Write a method that takes a list of students and filters out only those who have a grade above a certain threshold.
+
+Challenge 7: Filter Books by Author
+Create a class Book with attributes title, author, and publishedYear. Write a method that takes a list of books and filters out only those written by a specific author.
+
+Challenge 8: Filter Unique Elements
+Write a method that takes a list of integers and filters out only the unique elements (remove duplicates).
+
+Challenge 9: Filter Files by Extension
+Write a method that takes a list of file names and filters out only those with a specific file extension.
+
+Challenge 10: Filter Products by Price Range
+Create a class Product with attributes name, price, and category. Write a method that takes a list of products and filters out only those within a specified price range.
