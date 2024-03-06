@@ -2,6 +2,8 @@
 
 This README provides a comprehensive tutorial on intermediate operations in Java Streams. Intermediate operations transform existing streams into new streams, allowing for powerful data processing pipelines.
 
+## Explore specific subtopics on intermediate operations by clicking into respective folders, each dedicated to a different method.
+
 ## Table of Contents
 
 - [Introduction](#introduction)
