@@ -11,10 +11,7 @@ This README provides an in-depth guide to the `filter` method in the Java Stream
 - [Example: Filtering Objects](#example-filtering-objects)
 - [Common Use Cases](#common-use-cases)
 - [Important Points](#important-points)
-- [When to Use](#when-to-use)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [Some Coding challenges for you:](#some-coding-challenges-for-you)
 
 ## Introduction
 
@@ -85,11 +82,11 @@ In this example, the filter method is used to include only those Person objects 
     #Applying complex conditions to filter elements based on specific requirements.
 
 ## Important Points
-# The filter method doesn't modify the original stream; it creates a new stream with the filtered elements.
-# It's a lazy operation, meaning it doesn't execute immediately but waits for a terminal operation to trigger the processing of the stream.
+### The filter method doesn't modify the original stream; it creates a new stream with the filtered elements.
+### It's a lazy operation, meaning it doesn't execute immediately but waits for a terminal operation to trigger the processing of the stream.
 
 ## When to Use
-# Use the filter method when you need to selectively include or exclude elements from a stream based on a specified condition.
+### Use the filter method when you need to selectively include or exclude elements from a stream based on a specified condition.
 
 
 ## Some Coding challenges for you:
@@ -97,7 +94,7 @@ Challenge 1: Filter Strings by Length
 Write a method that takes a list of strings and returns a new list containing only strings with a length greater than a specified value.
 
 Challenge 2: Filter Odd Numbers
-Write a method that takes a list of integers and returns a new list containing only the odd numbers.
+Write a method that takes an array of integers and returns a new list containing only the odd numbers.
 
 Challenge 3: Filter Employees by Department
 Create a class Employee with attributes name, age, and department. Write a method that takes a list of employees and filters out only those who belong to a specific department.
@@ -111,14 +108,8 @@ Write a method that takes a list of integers and filters out only the prime numb
 Challenge 6: Filter Students by Grade
 Create a class Student with attributes name, grade, and age. Write a method that takes a list of students and filters out only those who have a grade above a certain threshold.
 
-Challenge 7: Filter Books by Author
-Create a class Book with attributes title, author, and publishedYear. Write a method that takes a list of books and filters out only those written by a specific author.
-
-Challenge 8: Filter Unique Elements
+Challenge 7: Filter Unique Elements
 Write a method that takes a list of integers and filters out only the unique elements (remove duplicates).
 
-Challenge 9: Filter Files by Extension
+Challenge 8: Filter Files by Extension
 Write a method that takes a list of file names and filters out only those with a specific file extension.
-
-Challenge 10: Filter Products by Price Range
-Create a class Product with attributes name, price, and category. Write a method that takes a list of products and filters out only those within a specified price range.

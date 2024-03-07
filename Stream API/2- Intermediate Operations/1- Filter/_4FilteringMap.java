@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class FilteringMap {
+public class _4FilteringMap {
     public static void main(String[] args) {
          // Sample Map with name and age
         Map<String, Integer> ageMap = new HashMap<>();

@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class FilteringMoreExample {
+public class _5FilteringMoreExample {
     public static void main(String[] args) {
         List<String> words = Arrays.asList("apple", "banana", "orange", "grape");
 

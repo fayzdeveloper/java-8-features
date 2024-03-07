@@ -6,7 +6,7 @@ import java.util.function.Predicate;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
-public class FilterPractice {
+public class _6FilterPractice {
     public static void main(String[] args) {
         //Filtering Integers
         //Initializing a integer list

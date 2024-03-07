@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class FilteringObjects {
+public class _3FilteringObjects {
     public static void main(String[] args) {
         List<Person> people = Arrays.asList(
             new Person("Alice", 25),
